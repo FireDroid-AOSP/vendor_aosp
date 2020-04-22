@@ -127,4 +127,7 @@
          2 - MODE_NIGHT_YES
     -->
     <integer name="config_defaultNightMode">0</integer>
+
+    <!-- Whether safe headphone volume is enabled or not. -->
+    <bool name="config_safe_media_volume_enabled">false</bool>
 </resources>
