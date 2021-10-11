@@ -127,6 +127,12 @@ PRODUCT_RESTRICT_VENDOR_FILES := false
 # Bootanimation
 include vendor/aosp/config/bootanimation.mk
 
+# Fonts
+$(call inherit-product, vendor/aosp/config/fonts.mk)
+
+# Branding
+include vendor/aosp/config/branding.mk
+
 # BtHelper
 PRODUCT_PACKAGES += \
     BtHelper
