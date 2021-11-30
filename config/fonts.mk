@@ -59,3 +59,11 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_COPY_FILES += \
     vendor/aosp/fonts/fonts_customization.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/fonts_customization.xml
+
+
+PRODUCT_PACKAGES += \
+    FontInterOverlay \
+    FontLinotteSourceOverlay \
+    FontManropeOverlay \
+    FontOnePlusSansOverlay \
+    FontOneplusSlateSourceOverlay
