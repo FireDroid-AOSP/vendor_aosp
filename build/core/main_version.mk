@@ -24,9 +24,6 @@ ADDITIONAL_SYSTEM_PROPERTIES  += \
     org.pixelexperience.tar_compressed_recovery=true
 endif
 
-# Custom security patch
-CUSTOM_SECURITY_PATCH := 2022-08-05
-
 # Versioning props
 ADDITIONAL_SYSTEM_PROPERTIES  += \
     org.firedroid.version=$(FireDroid_BASE_VERSION) \
