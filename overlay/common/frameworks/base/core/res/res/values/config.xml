@@ -313,4 +313,6 @@
         <item>launcher/ENABLE_SMARTSPACE_ENHANCED=true</item>
     </string-array>
 
+     <!-- Name of the font family to use in the default lockscreen clock -->
+     <string name="config_clockFontFamily">google-sans-clock</string>
 </resources>
