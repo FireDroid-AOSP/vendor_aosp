@@ -18,3 +18,9 @@ ADDITIONAL_SYSTEM_PROPERTIES += \
     ro.modversion=$(CUSTOM_VERSION) \
     ro.firedroid.maintainer=$(FIREDROID_MAINTAINER) \
     ro.firedroid.codename=$(FIREDROID_CODENAME)
+
+# Updater
+ifeq ($(IS_OFFICIAL),true)
+    ADDITIONAL_SYSTEM_PROPERTIES  += \
+        ro.is_official=true
+endif
