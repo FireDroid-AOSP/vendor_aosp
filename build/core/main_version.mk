@@ -29,9 +29,12 @@ CUSTOM_SECURITY_PATCH := 2022-08-05
 
 # Versioning props
 ADDITIONAL_SYSTEM_PROPERTIES  += \
-    org.pixelexperience.version=$(CUSTOM_VERSION_PROP) \
-    org.pixelexperience.version.display=$(CUSTOM_VERSION) \
-    org.pixelexperience.build_date=$(CUSTOM_BUILD_DATE) \
-    org.pixelexperience.build_date_utc=$(CUSTOM_BUILD_DATE_UTC) \
-    org.pixelexperience.build_type=$(CUSTOM_BUILD_TYPE) \
-    org.pixelexperience.build_security_patch=$(CUSTOM_SECURITY_PATCH)
+    org.firedroid.version=$(FireDroid_BASE_VERSION) \
+    org.firedroid.version.display=$(CUSTOM_VERSION) \
+    org.firedroid.build_date=$(CUSTOM_BUILD_DATE) \
+    org.firedroid.build_date_utc=$(CUSTOM_BUILD_DATE_UTC) \
+    org.firedroid.build_type=$(CUSTOM_BUILD_TYPE) \
+    org.firedroid.codename=$(FireDroid_BASE_VERSION) \
+    org.firedroid.build_version=$(FireDroid_BUILD_VERSION) \
+    ro.firedroid.maintainer=$(FIREDROID_MAINTAINER)
+
