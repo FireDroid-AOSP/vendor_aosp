@@ -129,7 +129,7 @@ PRODUCT_PACKAGES += \
     DummyCutoutOverlay
 
 # GameSpace
-PRODUCT_PACKAGES += \
+# PRODUCT_PACKAGES += \
     GameSpace
 
 # TouchGestures
@@ -186,7 +186,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
     ro.url.legal.android_privacy=http://www.google.com/intl/%s/mobile/android/basic/privacy.html
 
 # Google Play services configuration
-PRODUCT_PRODUCT_PROPERTIES += \
+# PRODUCT_PRODUCT_PROPERTIES += \
     ro.error.receiver.system.apps=com.google.android.gms \
     ro.atrace.core.services=com.google.android.gms,com.google.android.gms.ui,com.google.android.gms.persistent
 
@@ -198,10 +198,10 @@ PRODUCT_PACKAGES += \
 	libtextclassifier_lang_id_model
 
 # Camera
-ifneq ($(PRODUCT_NO_CAMERA),true)
-PRODUCT_PACKAGES += \
+# ifneq ($(PRODUCT_NO_CAMERA),true)
+# PRODUCT_PACKAGES += \
     Aperture
-endif
+# endif
 
 # Use gestures by default
 PRODUCT_PRODUCT_PROPERTIES += \
@@ -247,7 +247,7 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 $(call inherit-product, vendor/aosp/config/fonts.mk)
 
 # GMS
-$(call inherit-product, vendor/gms/products/gms.mk)
+# $(call inherit-product, vendor/gms/products/gms.mk)
 
 # OTA
 # $(call inherit-product, vendor/aosp/config/ota.mk)
