@@ -116,10 +116,6 @@ PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
 PRODUCT_PACKAGE_OVERLAYS += \
     vendor/aosp/overlay/common
 
-# Black Background Overlay
-PRODUCT_PACKAGES += \
-    DarkBgOverlay
-
 # Cutout control overlay
 PRODUCT_PACKAGES += \
     NoCutoutOverlay \
