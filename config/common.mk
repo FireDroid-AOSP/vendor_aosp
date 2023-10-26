@@ -236,10 +236,6 @@ $(call inherit-product, vendor/aosp/config/audio.mk)
 # Bootanimation
 $(call inherit-product, vendor/aosp/config/bootanimation.mk)
 
-# Monochromatic monet theme style
-PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-    persist.sysui.monochromatic=true
-
 # Fonts
 $(call inherit-product, vendor/aosp/config/fonts.mk)
 
