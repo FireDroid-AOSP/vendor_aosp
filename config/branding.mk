@@ -2,7 +2,7 @@
 CUSTOM_BUILD_TYPE ?= UNOFFICIAL
 
 # FireDroid Props
-FireDroid_BASE_VERSION = v1.8
+FireDroid_BASE_VERSION = v1.9-Final-Release
 
 # Time Related
 CUSTOM_DATE_YEAR := $(shell date -u +%Y)
