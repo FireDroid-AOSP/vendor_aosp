@@ -15,5 +15,6 @@ ADDITIONAL_SYSTEM_PROPERTIES += \
 # Updater
 ifeq ($(IS_OFFICIAL),true)
     ADDITIONAL_SYSTEM_PROPERTIES  += \
-        ro.is_official=true
+        net.firedroid.build_type=ci \
+        net.firedroid.version=$(CUSTOM_VERSION_PROP)
 endif
