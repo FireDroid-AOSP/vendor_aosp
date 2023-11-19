@@ -10,7 +10,8 @@ ADDITIONAL_SYSTEM_PROPERTIES += \
     ro.custom.device=$(CUSTOM_BUILD) \
     ro.custom.fingerprint=$(ROM_FINGERPRINT) \
     ro.custom.version=$(CUSTOM_VERSION) \
-    ro.modversion=$(CUSTOM_VERSION)
+    ro.modversion=$(CUSTOM_VERSION) \
+    ro.firedroid.maintainer=$(FIREDROID_MAINTAINER)
 
 # Updater
 ifeq ($(IS_OFFICIAL),true)
