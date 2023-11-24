@@ -6,12 +6,15 @@ endif
 
 # Versioning Props
 ADDITIONAL_SYSTEM_PROPERTIES += \
-    ro.custom.build.date=$(BUILD_DATE) \
-    ro.custom.device=$(CUSTOM_BUILD) \
-    ro.custom.fingerprint=$(ROM_FINGERPRINT) \
-    ro.custom.version=$(CUSTOM_VERSION) \
-    ro.modversion=$(CUSTOM_VERSION) \
+    org.firedroid.version=$(FireDroid_BASE_VERSION) \
+    org.firedroid.version.display=$(CUSTOM_VERSION) \
+    org.firedroid.build_date=$(CUSTOM_BUILD_DATE) \
+    org.firedroid.build_date_utc=$(CUSTOM_BUILD_DATE_UTC) \
+    org.firedroid.build_type=$(CUSTOM_BUILD_TYPE) \
+    org.firedroid.codename=$(FireDroid_BASE_VERSION) \
+    org.firedroid.build_version=$(FireDroid_BUILD_VERSION) \
     ro.firedroid.maintainer=$(FIREDROID_MAINTAINER)
+
 
 # Updater
 ifeq ($(IS_OFFICIAL),true)
