@@ -88,5 +88,5 @@ PRODUCT_PACKAGES += \
 
 # Register vendor fonts
 PRODUCT_COPY_FILES += \
-    $(call find-copy-subdir-files,*,vendor/pixys/fonts/prebuilt,$(TARGET_COPY_OUT_PRODUCT)/fonts) \
+    $(call find-copy-subdir-files,*,vendor/aosp/fonts/prebuilt,$(TARGET_COPY_OUT_PRODUCT)/fonts) \
     vendor/aosp/fonts/fonts_customization.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/fonts_customization.xml
