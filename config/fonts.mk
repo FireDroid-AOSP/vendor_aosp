@@ -6,7 +6,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     GoogleSans-Italic.ttf \
     GoogleSans-Regular.ttf \
-    GoogleSansClock-Regular.ttf \
     GoogleSansFlex-Regular.ttf
 
 # Lustria family
