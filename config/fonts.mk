@@ -84,6 +84,28 @@ PRODUCT_PACKAGES += \
     HarmonyOS-Sans-Thin.ttf \
     Lexend-VF.ttf \
     Manrope-VF.ttf \
+    FontAppleMintOverlay \
+    FontCartoonistHandOverlay \
+    FontChinacatOverlay \
+    FontLatoOverlay \
+    FontRobotoOrigOverlay \
+    FontRosemaryOverlay \
+    FontRubikOverlay \
+    FontSanFransiscoOverlay \
+    FontSlateProOverlay \
+    FontZillaSlabOverlay \
+    FontCherrySwash \
+    FontCocon \
+    FontCoreMellow \
+    FontDisney \
+    FontFucek \
+    FontGoogleSans \
+    FontLemon \
+    FontNetFlixSans \
+    FontRobotoCondensed \
+    FontSamsungSans \
+    FontSimpleDay \
+    FontUbuntu
 
 # Register vendor fonts
 PRODUCT_COPY_FILES += \
