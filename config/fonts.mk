@@ -118,7 +118,8 @@ PRODUCT_PACKAGES += \
     FontSonySketchSourceOverlay \
     FontSurferSourceOverlay \
     FontStoropiaOverlay \
-    FontNothiingDotOverlay
+    FontNothiingDotOverlay \
+    FontOppoSansOverlay
 
 # Register vendor fonts
 PRODUCT_COPY_FILES += \
