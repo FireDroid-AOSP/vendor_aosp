@@ -117,7 +117,8 @@ PRODUCT_PACKAGES += \
     FontSamsungOneSourceOverlay \
     FontSonySketchSourceOverlay \
     FontSurferSourceOverlay \
-    FontStoropiaOverlay
+    FontStoropiaOverlay \
+    FontNothiingDotOverlay
 
 # Register vendor fonts
 PRODUCT_COPY_FILES += \
