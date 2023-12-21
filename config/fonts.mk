@@ -119,7 +119,8 @@ PRODUCT_PACKAGES += \
     FontSurferSourceOverlay \
     FontStoropiaOverlay \
     FontNothiingDotOverlay \
-    FontOppoSansOverlay
+    FontOppoSansOverlay \
+     FontNothingDotHeadlineOverlay
 
 # Register vendor fonts
 PRODUCT_COPY_FILES += \
