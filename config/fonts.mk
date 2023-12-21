@@ -116,7 +116,8 @@ PRODUCT_PACKAGES += \
     FontLGSmartGothicSourceOverlay \
     FontSamsungOneSourceOverlay \
     FontSonySketchSourceOverlay \
-    FontSurferSourceOverlay
+    FontSurferSourceOverlay \
+    FontStoropiaOverlay
 
 # Register vendor fonts
 PRODUCT_COPY_FILES += \
