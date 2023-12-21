@@ -105,7 +105,18 @@ PRODUCT_PACKAGES += \
     FontRobotoCondensed \
     FontSamsungSans \
     FontSimpleDay \
-    FontUbuntu
+    FontUbuntu \
+    FontBariolSourceOverlay \
+    FontAclonicaSourceOverlay \
+    FontAmaranteSourceOverlay \
+    FontCagliostroSourceOverlay \
+    FontComfortaaSourceOverlay \
+    FontComicSansSourceOverlay \
+    FontCoolstorySourceOverlay \
+    FontLGSmartGothicSourceOverlay \
+    FontSamsungOneSourceOverlay \
+    FontSonySketchSourceOverlay \
+    FontSurferSourceOverlay
 
 # Register vendor fonts
 PRODUCT_COPY_FILES += \
