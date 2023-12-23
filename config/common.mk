@@ -89,6 +89,11 @@ endif
 PRODUCT_PACKAGES += \
         ViMusic
 
+# GameSpace
+PRODUCT_PACKAGES += \
+    GameSpace
+
+
 # Enforce privapp-permissions whitelist
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.control_privapp_permissions=enforce
