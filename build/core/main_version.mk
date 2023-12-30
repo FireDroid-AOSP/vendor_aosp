@@ -13,6 +13,7 @@ ADDITIONAL_SYSTEM_PROPERTIES += \
     org.firedroid.build_type=$(CUSTOM_BUILD_TYPE) \
     org.firedroid.codename=$(FireDroid_BASE_VERSION) \
     org.firedroid.build_version=$(FireDroid_BUILD_VERSION) \
+    org.firedroid.device=$(FireDroid_Device_Codename) \
     ro.firedroid.maintainer=$(FIREDROID_MAINTAINER)
 
 
