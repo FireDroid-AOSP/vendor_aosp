@@ -4,22 +4,17 @@ ADDITIONAL_SYSTEM_PROPERTIES += \
     ro.build.fingerprint=$(BUILD_FINGERPRINT)
 endif
 
-# LineageOS System Version
+# FireDroid Platform Version
 ADDITIONAL_SYSTEM_PROPERTIES += \
-    ro.lineage.version=$(LINEAGE_VERSION) \
-    ro.lineage.releasetype=$(LINEAGE_BUILDTYPE) \
-    ro.lineage.build.version=$(PRODUCT_VERSION_MAJOR).$(PRODUCT_VERSION_MINOR) \
-    ro.modversion=$(LINEAGE_VERSION) \
-    ro.lineagelegal.url=https://lineageos.org/legal
-
-# LineageOS Platform Display Version
-ADDITIONAL_SYSTEM_PROPERTIES += \
-    ro.lineage.display.version=$(LINEAGE_DISPLAY_VERSION)
-
-# LineageOS Platform SDK Version
-ADDITIONAL_SYSTEM_PROPERTIES += \
-    ro.lineage.build.version.plat.sdk=$(LINEAGE_PLATFORM_SDK_VERSION)
-
-# LineageOS Platform Internal Version
-ADDITIONAL_SYSTEM_PROPERTIES += \
-    ro.lineage.build.version.plat.rev=$(LINEAGE_PLATFORM_REV)
+    ro.firedroid.version=$(FireDroid_BASE_VERSION) \
+    ro.firedroid.version.display=$(CUSTOM_VERSION) \
+    ro.custom.build.date=$(BUILD_DATE) \
+    ro.firedroid.build_date_utc=$(CUSTOM_BUILD_DATE_UTC) \
+    ro.firedroid.build_type=$(CUSTOM_BUILD_TYPE) \
+    ro.firedroid.build_version=$(FireDroid_BUILD_VERSION) \
+    ro.custom.fingerprint=$(ROM_FINGERPRINT) \
+    ro.custom.version=$(CUSTOM_VERSION) \
+    ro.custom.device=$(CUSTOM_BUILD) \
+    ro.modversion=$(CUSTOM_VERSION) \
+    ro.firedroid.maintainer=$(FIREDROID_MAINTAINER) \
+    ro.firedroid.codename=$(FIREDROID_CODENAME)
